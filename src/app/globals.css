@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#headerImg{
+  background-image: url(../image/headerImage.png);
+  background-size: cover;
+  opacity: 80%;
+}
+
+#textgalerie{
+  color: #271718;
+}
+
+#Footer{
+  background-color: #271718;
+}
+
+#NavBar{
+  background-color: #271718;
+}
+
+#propduits{
+  color: #271718;
+}
+
+#UserName{
+  color: #271718;
+}
+
+#Saveur{
+  color: #271718;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
