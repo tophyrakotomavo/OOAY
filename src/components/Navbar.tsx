@@ -7,7 +7,7 @@ const menus = [
   { url:"/contact", text:"Contact"}
 ];
 
-export default function Navbar() {
+const Navbar = () => {
   const renderMenus = menus.map ((menu) => (
     <Link className=" text-white text-xs font-normal" 
       href={menu.url} key={menu.url}>
@@ -23,3 +23,5 @@ export default function Navbar() {
     </div>
   );
 };
+
+export default Navbar;

@@ -1,7 +1,6 @@
 import React from "react";
 
-const SecondeCtx = () => {
-  return(
+const SecondeCtx = () => (
     <div id="Produit" className="w-full">
       <div>
         <h1 id="produits" className="text-center font-bold text-3xl" > Produits </h1>
@@ -12,7 +11,6 @@ const SecondeCtx = () => {
         </span>
       </div>
     </div>
-  );
-};
+);
 
 export default SecondeCtx;

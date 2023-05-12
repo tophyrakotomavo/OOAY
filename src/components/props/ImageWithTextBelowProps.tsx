@@ -6,10 +6,11 @@ type tprops = {
   paragraph: string,
   text: string
   alt: string
-}
+};
 
 const ImageWithTextBelowProps: React.FC<tprops> = (props) => {
   const { img, paragraph, text, alt } = props;
+
   return(
     <div className="space-y-5 w-96">
       <Image alt={alt} src={img} width={400} height={400} className="rounded-lg"/>

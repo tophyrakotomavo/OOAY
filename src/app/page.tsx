@@ -19,7 +19,7 @@ export default function Home() {
         <Main/>
         <ImgBlock/>
       </section>
-      <section id="Produit" className='space-y-16'>
+      <section id="Produits" className='space-y-16'>
         <SecondeCtx/>
         <ImgWithTxtBelow/>
         <LastImgBlock/> 
