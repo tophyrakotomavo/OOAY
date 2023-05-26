@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "./Navbar";
 import Menus from "./Menus";
 
-const HeaderImg = () => (
+const HeaderHome = () => (
   <div>
     <Navbar/>
-    <div id="headerImg" className="relative sm:h-screen h-80">
+    <div id="headerHome" className="relative sm:h-screen h-80">
       <div className="justify-end hidden sm:flex">
         <Menus/>  
       </div>
@@ -21,4 +21,4 @@ const HeaderImg = () => (
   </div>
 );  
 
-export default HeaderImg;
+export default HeaderHome;

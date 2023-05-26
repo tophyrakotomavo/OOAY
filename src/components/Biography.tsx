@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import User from "@/image/image 7.png"
 
-const UserBiography = () => (
+const Biography = () => (
   <div className="flex flex-row justify-evenly">
     <div className="items-center hidden md:block">
       <Image src={User} alt="Sac a main" className="rounded-full"/>
@@ -25,4 +25,4 @@ const UserBiography = () => (
   </div>
 );
 
-export default UserBiography;
+export default Biography;

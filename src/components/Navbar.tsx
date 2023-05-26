@@ -13,7 +13,7 @@ const Navbar = () => {
       href={menu.url} key={menu.url}>
       {menu.text}
     </Link>
-  ))
+  ));
 
   return(
     <div id="NavBar" className="p-2 w-full h-10 text-white text-center sm:text-left items-center">

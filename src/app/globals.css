@@ -2,13 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-#headerImg{
+#headerContact{
+  background-image: url(../image/Rafia-bag.png);
+  background-size: cover;
+  opacity: 80%;
+}
+
+#headerGalerie{
+  background-image: url(../image/Artisanal-malgache.png);
+  background-size: cover;
+  opacity: 80%;
+}
+
+#headerHome{
   background-image: url(../image/headerImage.png);
   background-size: cover;
   opacity: 80%;
 }
 
 #textgalerie{
+  color: #271718;
+}
+
+#txtContact{
   color: #271718;
 }
 

@@ -31,7 +31,6 @@ import TroisSacDiff from "@/image/imageGalerie/trois_Sac_en_couleur_different.jp
 import BondoliereCuire from "@/image/imageGalerie/Bondoliere_vue_de_dessus.jpg";
 import BondoliereCuire1 from "@/image/imageGalerie/Bondoliere_vue_de_face.jpg";
 import BondoliereCuire2 from "@/image/imageGalerie/Bondoliere_vue_priofil.jpg";
-import Plaque from "@/image/imageGalerie/Plaque_The.jpg";
 
 const imagesArray = [
   BondoliereCuire.src, BondoliereCuire1.src, BondoliereCuire2.src,

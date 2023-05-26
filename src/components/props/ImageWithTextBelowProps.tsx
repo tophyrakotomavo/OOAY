@@ -12,9 +12,9 @@ const ImageWithTextBelowProps: React.FC<tprops> = (props) => {
   const { img, paragraph, text, alt } = props;
 
   return(
-    <div className="space-y-5 w-96">
+    <div className="space-y-5 sm:w-96 p-2">
       <Image alt={alt} src={img} width={400} height={400} className="rounded-lg"/>
-      <div className="text-xs ">
+      <div className="text-xs mr-2 ml-2">
         <span className="font-bold">{paragraph}</span>
         <span className="text-black">{text}</span>
       </div>
