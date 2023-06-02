@@ -8,7 +8,7 @@ const Biography = () => (
       <Image src={User} alt="Sac a main" className="rounded-full"/>
     </div>
     <div className="w-2/3 space-y-5">
-      <h1 className="text-bold text-5xl" id="UserName">Mariano</h1>
+      <h1 className="text-bold sm:text-5xl text-3xl" id="UserName">Mariano</h1>
       <p className="font-bold text-lg">Fondatrice de OOAY</p>
       <span className="text-slate-900 space-y-6 text-xs">
         <p>

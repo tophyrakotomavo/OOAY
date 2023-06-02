@@ -67,6 +67,7 @@ const Page = () => {
         <div className="columns-5 gap-3 m-auto w-5/6">
           {imagesArray.map((src, index) => (
             <Image
+              className="hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
               src={src}
               onClick={() => openImageViewer(index)}
               width={600}

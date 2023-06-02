@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const Footer = () => (
   <div>
-    <footer id="Footer" className="text-white flex flex-row items-center space-x-9 w-full h-44 sm:text-sm text-xs px-8">
-      <div className="flex flex-col">
+    <footer id="Footer" className="text-white sm:flex flex-row space-x-3 w-full h-fit sm:text-sm text-xs sm:px-4 py-3 ">
+      <div className="flex flex-col p-3">
         <span className="font-semibold text-base">Contact</span>
         <Link href="">Tell:xxxxxxxxxx</Link>
-        <Link href="">Email:xxxxxxxxxx@mailxxx</Link>
+        <Link href="">Email:xxxxxxx@mail.xxx</Link>
         <Link href="">Adress: Lot xxxxxxxxxx</Link>
         <div className="flex space-x-2">
-          <Link href="">
+          <Link href={"https://www.facebook.com/mariano.andriantsifeherana"}>
             <svg width="15" height="15" viewBox="0 0 15 15" fill="white" xmlns="http://www.w3.org/2000/svg">
               <path d="M13.3929 0H1.60714C1.1809 0 0.772119 0.169324 0.470721 0.470721C0.169323 0.772119 0 1.1809 0 1.60714L0 13.3929C0 13.8191 0.169323 14.2279 0.470721 14.5293C0.772119 14.8307 1.1809 15 1.60714 15H6.20257V9.90033H4.09319V7.5H6.20257V5.67054C6.20257 3.58962 7.44141 2.44018 9.33884 2.44018C10.2475 2.44018 11.1978 2.60223 11.1978 2.60223V4.64464H10.1508C9.1192 4.64464 8.79743 5.28482 8.79743 5.94141V7.5H11.1003L10.732 9.90033H8.79743V15H13.3929C13.8191 15 14.2279 14.8307 14.5293 14.5293C14.8307 14.2279 15 13.8191 15 13.3929V1.60714C15 1.1809 14.8307 0.772119 14.5293 0.470721C14.2279 0.169324 13.8191 0 13.3929 0Z"/>
             </svg>
