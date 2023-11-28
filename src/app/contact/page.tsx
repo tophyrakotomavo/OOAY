@@ -21,7 +21,7 @@ const Page = () => {
     if(success){
       timeout = setTimeout(() => {
         setSuccess(false);
-      }, 4000);
+      }, 5000);
     }
 
     return () => clearTimeout(timeout);
@@ -40,7 +40,7 @@ const Page = () => {
     if(Obj){
       setSuccess(true), setIsLoading(false)
     }
-    else{setError("Erreur! La tâche a échoué")}
+    else{setError("Erreur!")}
   };
 
   return (
@@ -111,7 +111,7 @@ const Page = () => {
               { isloading?
                 <div>
                   <span className="loading loading-spinner"></span>
-                  Chargement
+                  Chargement...
                 </div>: "Envoyer mon message"
               }
             </button>

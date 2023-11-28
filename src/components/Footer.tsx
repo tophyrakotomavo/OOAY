@@ -6,7 +6,7 @@ const Footer = () => (
     <footer id="Footer" className="text-white sm:flex flex-row space-x-3 w-full h-fit sm:text-sm text-xs sm:px-4 py-3 ">
       <div className="flex flex-col p-3">
         <span className="font-semibold text-base">Contact</span>
-        <Link href="">Tell:xxxxxxxxxx</Link>
+        <Link href="">Tell: 0326829795 </Link>
         <Link href="">Email:xxxxxxx@mail.xxx</Link>
         <Link href="">Adress: Lot xxxxxxxxxx</Link>
         <div className="flex space-x-2">
