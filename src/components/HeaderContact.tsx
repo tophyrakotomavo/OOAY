@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-const headerContact = () => (
+const HeaderContact = () => (
   <div>
     <Navbar/>
     <div id="headerContact" className="md:bg-cover bg-contain md:h-screen h-80 backdrop-opacity-20">
@@ -17,4 +17,4 @@ const headerContact = () => (
   </div>
 );
 
-export default headerContact;
+export default HeaderContact;

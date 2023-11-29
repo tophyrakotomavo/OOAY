@@ -23,31 +23,11 @@
   opacity: 80%;
 }
 
-#textgalerie{
-  color: #271718;
-}
-
-#txtContact{
-  color: #271718;
-}
-
-#Footer{
+#Footer, #NavBar{
   background-color: #271718;
 }
 
-#NavBar{
-  background-color: #271718;
-}
-
-#propduits{
-  color: #271718;
-}
-
-#UserName{
-  color: #271718;
-}
-
-#Saveur{
+#Saveur, #UserName, #propduits, #txtContac, #textgalerie{
   color: #271718;
 }
 

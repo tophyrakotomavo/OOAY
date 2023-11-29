@@ -1,5 +1,5 @@
 import React from "react";
-import ImageWithTextBelow from "./props/ImageWithTextBelowProps";
+import ImageWithTextBelow from "./ImageWithTextBelowProps";
 import cacao from "@/image/Cacao-vu-de-dessus.png"
 import tasse from "@/image/Tasse-Img-Maki.png"
 

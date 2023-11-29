@@ -1,5 +1,5 @@
 import React from "react";
-import ImageBlockProps from "./props/ImageBlockProps";
+import ImageBlockProps from "./ImageBlockProps";
 import Rafia from "@/image/Rafia-bag.png";
 
 const ImageBlockTwo = () => (
