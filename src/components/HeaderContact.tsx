@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 const HeaderContact = () => (
   <div>
     <Navbar/>
-    <div id="headerContact" className="md:bg-cover bg-contain md:h-screen h-80 backdrop-opacity-20">
+    <div id="headerContact" className="sticky md:bg-cover bg-contain md:h-screen h-80 backdrop-opacity-20">
       <h1 className="font-serif text-white text-center sm:text-5xl text-2xl">
         OOAY
       </h1>

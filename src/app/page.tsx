@@ -15,7 +15,7 @@ const Home = () => (
     <section id="Saveur" className='md:space-y-10 space-y-6'>
       <Textone/>
       <ImgAndTxt/>
-      <ImgBlock/>
+      <ImgBlock/> 
     </section>
     <section id="Produits" className='md:space-y-10 space-y-6'>
       <SecondeCtx/>

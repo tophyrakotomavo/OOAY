@@ -1,4 +1,5 @@
 "use client"
+
 import React, { useEffect, useState } from "react";
 import { sendEmail } from "@/server/contact";
 import HeaderContact from "@/components/HeaderContact";
@@ -45,6 +46,7 @@ const Page = () => {
 
   return (
     <div>
+      
       <HeaderContact />
       {error && 
         <div className="alert alert-error shadow-lg w-fit fixed top-5 left-100 right-5">

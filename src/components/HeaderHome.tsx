@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import Navbar from "./Navbar";
 import Menus from "./Menus";
 
@@ -7,7 +7,7 @@ const HeaderHome = () => {
   return(
     <div >
       <Navbar/>
-      <div id="headerHome" className="sm:h-screen h-80">
+      <div id="headerHome" className='sm:h-screen h-80'>
         <div className="justify-end hidden sm:flex">
           <Menus/>  
         </div>
