@@ -63,6 +63,11 @@ const urlImages = [
   "/imageGalerie/received_733486425486011.png",
 ];
 
-export const GET = (_req: NextRequest) => {
-  return Response.json(urlImages);
+export const GET = () => {
+  return new Response(JSON.stringify(urlImages), {
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
 };
+

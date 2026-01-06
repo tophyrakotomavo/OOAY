@@ -41,5 +41,8 @@
   "bugs": {
     "url": "https://github.com/tophyrakotomavo/OOAY/issues"
   },
-  "homepage": "https://github.com/tophyrakotomavo/OOAY#readme"
+  "homepage": "https://github.com/tophyrakotomavo/OOAY#readme",
+  "engines": {
+    "node": "24.x"
+  }
 }
