@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import ImgAndTxt from '@/components/ImgAndTxt';
 import Footer from '@/components/Footer';
 import Textone from '@/components/Textone';
@@ -8,6 +9,26 @@ import ImgWithTxtBelow from '@/components/ImgWithTxtBelow';
 import ImgBlock from '@/components/ImgBlock';
 import ImageBlockTwo from '@/components/ImageBlockTwo';
 import Biography from '@/components/Biography';
+import { DEFAULT_DESCRIPTION, DEFAULT_OG_IMAGE, SITE_NAME } from '@/lib/seo';
+
+export const metadata: Metadata = {
+  title: 'Accueil',
+  description: DEFAULT_DESCRIPTION,
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: `${SITE_NAME} | Accueil`,
+    description: DEFAULT_DESCRIPTION,
+    url: '/',
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    title: `${SITE_NAME} | Accueil`,
+    description: DEFAULT_DESCRIPTION,
+    images: [DEFAULT_OG_IMAGE],
+  },
+};
 
 const Home = () => (
   <div className='md:space-y-14 space-y-9'>

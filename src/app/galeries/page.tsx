@@ -1,27 +1,29 @@
-"use client"
+import type { Metadata } from 'next'
+import GaleriesPageClient from './GaleriesPageClient'
+import { DEFAULT_OG_IMAGE, SITE_NAME } from '@/lib/seo'
 
-import Footer from "@/components/Footer";
-import HeaderGalerie from "@/components/HeaderGalerie";
-import ImageGalerie from "@/components/ImgGalerie";
-import BtnScrollTop from "@/components/BtnScrollTop";
+const galeriesDescription =
+  "Explorez la galerie OOAY et decouvrez nos produits et matieres premieres artisanales."
 
-const Page = () =>{
-  
-  return(
-    <div>
-      <div>
-        <HeaderGalerie/>
-        <div className="text-center my-8">
-          <span id="txtGalerie" className="font-bold sm:text-4xl text-xl">Galeries</span>
-        </div>
-        <ImageGalerie/>
-      </div>
-      <BtnScrollTop/>
-      <div className="mt-5">
-        <Footer/>
-      </div>
-    </div>
-  );
-};
+export const metadata: Metadata = {
+  title: 'Galeries',
+  description: galeriesDescription,
+  alternates: {
+    canonical: '/galeries',
+  },
+  openGraph: {
+    title: `${SITE_NAME} | Galeries`,
+    description: galeriesDescription,
+    url: '/galeries',
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    title: `${SITE_NAME} | Galeries`,
+    description: galeriesDescription,
+    images: [DEFAULT_OG_IMAGE],
+  },
+}
 
-export default Page;
+const GaleriesPage = () => <GaleriesPageClient />
+
+export default GaleriesPage
